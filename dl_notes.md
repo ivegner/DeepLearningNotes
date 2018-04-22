@@ -82,7 +82,7 @@ To create a user-friendly interactive way to **create and manipulate images on a
 3. **Update the projection** so that it satisfies the user's edits and stays on the manifold.
 
    - The new image that most closely incorporates the edits is found by doing gradient descent on the following equation:
-     ![image-20180421163131658](/Users/ivan/Programming/MachineLearning/Papers/DL-Notes/dl_notes.assets/iGAN_update_equation.png)
+     ![image-20180421163131658](dl_notes.assets/iGAN_update_equation.png)
 
      , where $g$ are editing operations like color, shape and warping constraints, and $f_g$ is **?????????**. The data term measures deviation from the constraint and the smoothness term enforces moving in small steps on the manifold, so that the image content is not altered too much.
 
